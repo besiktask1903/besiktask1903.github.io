@@ -81,7 +81,7 @@ toponad.com, 165535463cfb70, RESELLER, 1d49fe424a1a456d
 video.unrulymedia.com, 657436911, RESELLER
 jcprog.com, pub-4518750432, RESELLER
 algorix.co, 54616, RESELLER, 5b394c12fea27a1d
-thebrave.io, 1234634, RESELLER, c45702d9311e25fd
+thebrave.io, 1234634, RESELLER, c25b2154543746ac
 outbrain.com, 0073fa86cff719c752763d2c3ee52c8f00, RESELLER
 loopme.com, 11463, RESELLER, 6c8d5f95897a5a3b
 smaato.com, 1100047589, RESELLER, 07bcf65f187117b4
