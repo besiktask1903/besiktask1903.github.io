@@ -142,3 +142,4 @@ google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0
 start.io, 168507669, RESELLER
 triplelift.com, 13883, RESELLER, 6c33edb13117fd86
 app-stock.com, 358747, RESELLER
+vungle.com, 69f35d888f95e24c6f998373, DIRECT, c107d686becd2d77
