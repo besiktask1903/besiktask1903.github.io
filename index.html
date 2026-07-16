@@ -1,11 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>besiktask1903</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okan Oguz — Apps</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #0F172A;
+            color: #CBD5E1;
+            line-height: 1.6;
+            padding: 56px 20px;
+        }
+        .wrap { max-width: 640px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 44px; }
+        h1 { font-size: 30px; color: #fff; letter-spacing: -0.5px; }
+        header p { color: #94A3B8; margin-top: 8px; font-size: 15px; }
+        .card {
+            background: #1E293B;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+        .card h2 { font-size: 20px; color: #fff; margin-bottom: 4px; }
+        .card .tag { font-size: 13px; color: #64748B; margin-bottom: 12px; }
+        .card p { font-size: 15px; margin-bottom: 18px; }
+        .links { display: flex; flex-wrap: wrap; gap: 10px; }
+        .btn {
+            display: inline-block;
+            padding: 9px 16px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            border: 1px solid #475569;
+            color: #E2E8F0;
+            transition: background .15s;
+        }
+        .btn:hover { background: #334155; }
+        .btn.apple { border-color: #60A5FA; color: #93C5FD; }
+        .btn.play { border-color: #34D399; color: #6EE7B7; }
+        .soon { font-size: 14px; color: #64748B; font-style: italic; }
+        footer { text-align: center; margin-top: 36px; font-size: 14px; color: #64748B; }
+        footer a { color: #8B5CF6; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-    <h1>Developer Site</h1>
-    <p><a href="https://play.google.com/store/apps/developer?id=besiktask1903">View apps on Google Play</a></p>
+    <div class="wrap">
+        <header>
+            <h1>Apps by Okan Oguz</h1>
+            <p>Free tools that help you compare energy rates and find the best deal.</p>
+        </header>
+
+        <div class="card">
+            <h2>GridWise Ohio</h2>
+            <div class="tag">iOS &amp; Android</div>
+            <p>Compare Ohio electricity and natural gas supplier rates against your utility's price to compare, and find the cheapest fixed-rate plan — straight from PUCO's official Apples to Apples data.</p>
+            <div class="links">
+                <a class="btn apple" href="https://apps.apple.com/us/app/gridwise-ohio/id6759494556">App Store</a>
+                <a class="btn play" href="https://play.google.com/store/apps/details?id=com.gridwise.ohio">Google Play</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>GridScout PA</h2>
+            <div class="tag">iOS &amp; Android</div>
+            <p>Compare Pennsylvania electricity and natural gas supplier rates and find the cheapest fixed-rate plan for your home — powered by the PA PUC's official PAPowerSwitch and PAGasSwitch data.</p>
+            <div class="links">
+                <span class="soon">Coming soon to the App Store and Google Play</span>
+            </div>
+        </div>
+
+        <footer>
+            <p>More apps on the <a href="https://apps.apple.com/us/developer/okan-oguz/id1876047316">App Store</a> · Questions? <a href="mailto:iamdebugging@gmail.com">iamdebugging@gmail.com</a></p>
+        </footer>
+    </div>
 </body>
 </html>
